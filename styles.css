@@ -127,3 +127,57 @@ footer p, footer a {
     font-size: xx-large;
     font-weight: 500;
 }
+
+.ingressos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    width: 400px;
+    height: 200px;
+    margin-left: 40px;
+    object-fit: cover;
+}
+.card .content {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+.card ul {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.compra {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 70px;
+    padding: 0%;
+    color: #9F2323;
+}
+
+.comprarIngresso {
+    background-color: #A52E21;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 100px;
+}
