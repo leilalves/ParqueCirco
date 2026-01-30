@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffef0;
+}
+
+header {
+ background: #F9F7CB;
+ position: fixed;
+ width: 100%;
+ height: 60px;
+ top: 0;
+ padding: 12px 20px;
+}
+
+header, nav {
+ display: flex;
+ justify-content: space-between;
+ margin-right: 30px;
+
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    margin: 30px;
+    margin-top: 25px;
+}
+
+i {
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 20px;
+    color: black;
+}
+
+.comprarAgora {
+    background-color: #E5A000;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 200px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.comprarAgora :hover {
+    background-color: #c18805;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url('trecogira.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.hero p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-left: 450px;
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.meio {
+    display: flex;
+    width: 100%;
+}
+
+.metade {
+    margin: 20px;
+    flex: 1;
+    width: 50%;
+}
+
+.metade img {
+    width: 535px;
+    height: 668px;
+}
