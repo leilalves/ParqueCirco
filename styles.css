@@ -102,3 +102,28 @@ footer p, footer a {
     color: #626262;
     margin: 10px;
 }
+
+.sobre {
+    align-items: center;
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.sobre h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 70px;
+    padding: 0%;
+    color: #9F2323;
+}
+
+.sobre p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -30px;
+    line-height: 1.8;
+    font-size: xx-large;
+    font-weight: 500;
+}
