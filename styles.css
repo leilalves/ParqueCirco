@@ -44,11 +44,6 @@ i {
     font-size: 20px;
 }
 
-.comprarAgora:hover {
-    background-color: #c48800;
-    cursor: pointer;
-}
-
 .hero {
     width: 100%;
     height: 100vh;
@@ -185,9 +180,4 @@ footer p, footer a {
     font-weight: 500;
     font-size: 20px;
     margin-left: 100px;
-}
-
-.comprarIngresso:hover {
-    background-color: #7e2218;
-    cursor: pointer;
 }
